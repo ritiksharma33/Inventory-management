@@ -1,16 +1,15 @@
-# React + Vite
+# 📦 Inventory Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React application for managing product inventory. Features a beautiful UI with real-time adding, filtering, and local data persistence.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Add Products:** Modal form with inputs for name, price, category, and stock status.
+- **Search & Filter:** Real-time search bar and "In Stock Only" toggle.
+- **Data Persistence:** Automatically saves your data to LocalStorage (won't get lost on refresh).
+- **Modern UI:** Built with CSS-in-JS and clean glass-morphism effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js (Vite)
+- **Styling:** Custom CSS (Modern SaaS Theme)
+- **Icons:** Standard HTML entities / CSS Shapes
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
